@@ -1,0 +1,7 @@
+{
+    "require": {
+        "psr/http-server-middleware": "^1.0",
+        "template-interop/engine": "^0.0.1",
+        "psr/http-factory": "^1.0"
+    }
+}
