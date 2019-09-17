@@ -1,7 +1,33 @@
 {
+    "name": "template-interop/middleware",
+    "description": "PSR-15 HTTP middleware for template-interop/engine",
+    "keywords": [
+        "render",
+        "template",
+        "engine",
+        "templating",
+        "output",
+        "twig",
+        "plates",
+        "smarty",
+        "dwoo"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Keven",
+            "email": "hello@keven.fr"
+        }
+    ],
     "require": {
-        "psr/http-server-middleware": "^1.0",
+        "php": ">=7.0",
         "template-interop/engine": "^0.0.1",
+        "psr/http-server-middleware": "^1.0",
         "psr/http-factory": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Interop\\Template\\Middleware\\": "src/"
+        }
     }
 }
